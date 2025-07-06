@@ -1,0 +1,35 @@
+{
+  "app": {
+    "title": "ScanPass",
+    "tagline": "Vérifiez votre mot de passe sans compromettre votre vie privée"
+  },
+  "form": {
+    "placeholder": "Entrez votre mot de passe",
+    "privacyNote": "Votre mot de passe n'est jamais stocké ni transmis",
+    "checkButton": "Vérifier le mot de passe",
+    "checking": "Vérification...",
+    "clear": "Effacer"
+  },
+  "strength": {
+    "label": "Force du mot de passe",
+    "veryWeak": "Très faible",
+    "weak": "Faible",
+    "moderate": "Correct",
+    "strong": "Fort"
+  },
+  "results": {
+    "safe": "Ce mot de passe n'a pas été retrouvé dans des fuites connues",
+    "safeAdvice": "Néanmoins, évitez de le réutiliser sur plusieurs sites",
+    "compromised": "Ce mot de passe a été retrouvé {{count}} fois dans des fuites de données",
+    "compromisedAdvice": "Changez-le immédiatement et utilisez un mot de passe unique et complexe",
+    "error": "Impossible de vérifier le mot de passe. Veuillez réessayer.",
+    "enterPassword": "Entrez un mot de passe pour vérifier les fuites"
+  },
+  "education": {
+    "howItWorks": "Comment ça fonctionne",
+    "step1": "Votre mot de passe est haché avec SHA-1 sur votre appareil",
+    "step2": "Seuls les 5 premiers caractères du hash sont envoyés à HaveIBeenPwned",
+    "step3": "Nous comparons les résultats localement - votre mot de passe ne quitte jamais votre appareil",
+    "privacy": "Cette application ne stocke ni n'envoie jamais votre mot de passe. Tout est traité localement."
+  }
+}

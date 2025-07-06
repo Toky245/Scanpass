@@ -1,0 +1,35 @@
+{
+  "app": {
+    "title": "ScanPass",
+    "tagline": "Check your password without compromising your privacy"
+  },
+  "form": {
+    "placeholder": "Enter your password",
+    "privacyNote": "Your password is never stored or transmitted",
+    "checkButton": "Check Password",
+    "checking": "Checking...",
+    "clear": "Clear"
+  },
+  "strength": {
+    "label": "Password Strength",
+    "veryWeak": "Very Weak",
+    "weak": "Weak",
+    "moderate": "Moderate",
+    "strong": "Strong"
+  },
+  "results": {
+    "safe": "This password has not appeared in any known breaches",
+    "safeAdvice": "Still, avoid reusing it across websites",
+    "compromised": "This password has been found {{count}} times in data breaches",
+    "compromisedAdvice": "Change it immediately and use a unique, complex password",
+    "error": "Unable to check password. Please try again.",
+    "enterPassword": "Enter a password to check for breaches"
+  },
+  "education": {
+    "howItWorks": "How it works",
+    "step1": "Your password is hashed using SHA-1 on your device",
+    "step2": "Only the first 5 characters of the hash are sent to HaveIBeenPwned",
+    "step3": "We compare results locally - your password never leaves your device",
+    "privacy": "This app never stores or sends your password. Everything is processed locally."
+  }
+}
